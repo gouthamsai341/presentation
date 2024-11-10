@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: rgb(161, 207, 191);
+}
+.logo{
+    max-width: 100%;
+    height: auto;
+
+
+}
+header {
+    background-color: #009688;
+    color: white;
+    padding: 10px;;
+font-size: larger;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+.services, .doctors, .booking, .contact {
+    padding: 20px;
+
+}
+.services{
+margin: 100px;
+}
+.service-items, .doctor-list {
+    display: flex;
+    gap: 200px;
+}
+.service-item, .doctor-item {
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 45px;
+    background-color: #009688;
+    color: white;
+    padding: 150;
+}
+.footer, .book-appoitment-form,.form-group{
+    font-size:xx-large;
+
+
+}
+    .form-group button {
+            height: 10%;
+            width: 10%;
+            padding: 1px;
+            background-color: #4940cc;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+        .appointment-form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+        .appointment-form h2 {
+            text-align: center;
+            color: #333;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            color: #333;
+        }
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 20%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        .form-group button:active {
+            background-color: #45a049;
+        }

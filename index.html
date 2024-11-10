@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <logo>
+            <img src="logo.jpeg"alt="logo">
+        </logo>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="doctors.html">Doctors</a></li>
+                <li><a href="booking.html">Book Appointment</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+      
+        <section class="hero">
+            <h1>Welcome to Our Hospital </h1>
+            <p><h2>Your health is our priority</h2></p>
+            <img src="img2.jpng.png" alt="Hospital Image">
+        </section>
+        <section class="services">
+            <h1>Our Services</h1>
+            <p><h2>We provide quality healthcare with experienced professionals.</h2></p>
+            <div class="service-items">
+                <div class="service-item">
+                    <img src="john.jpeg" alt="Service 1" width="300" height="300">
+                    <h3>Emergency Care</h3>
+                </div>
+                <div class="service-item">
+                    <img src="girl.jpeg" alt="Service 2" width="500" height="300">
+                    <h3>Specialist Doctors</h3>
+                </div>
+            </div>
+           <h1>ABOUT SMART HOSPITALS</h1>
+           <p><H2>SMART HOSPITAL Foundation was registered in the year 2002 at Hyderabad under the Public Charitable Trust Act (Reg. no. 1607-IV-32 of 2002). The Foundation works towards saving lives by providing quality health care to the most deserving sections of the society.</H2></p>
+         <p> <h2>According to a WHO report, the Doctor: Patient in India is 1:1674 – much below WHO’s prescribed ratio of 1:1000. These statistics, combined with the change in lifestyle of Indian youth (which results in less time to attend to the sick), indicate towards a huge demand for home healthcare for the elderly.
+
+            With an aging population and the rapid increase in various types of chronic illnesses, there is an urgent need for quality healthcare. Private sector medical institutions and government hospitals are unable to cope since the average Indian finds them not easy to access.
+            
+            Skilling people to aid in home healthcare is one major components of home based care. There are many advantages that home healthcare services offer and for which customers are happy and willing to pay for, including: Convenience – cuts down on travel time and expense; Provides personalized attention on a one on one basis & Recovering in the familiar and comfortable environment of one’s own home.</h2></p> 
+
+           <img src="img9.jpeg.png" alt="Hospital Image">
+        </section>
+    </main>
+    <footer>
+      
+    
+    <div class="Book Appointment-form">
+        
+        <form id="appointmentForm">
+            <div class="form-group">
+                <label for="Name">Name:</label>
+                <input id="Name" name="Name"  placeholder="enter name" required>
+                   
+                </input>
+            </div>
+            <div class="form-group">
+                <label for="email">email:</label>
+                <input id="email" name="email"  placeholder="enter email" required>
+                    
+            </input>
+            </div>
+            <div class="form-group">
+                <label for="Feedback">Feedback:</label>
+                <textarea id="Feedback" name="Feedback" rows="4"placeholder="enter feedback" required ></textarea>
+            </div>
+            <div class="form-group">
+                <button type="button" onclick="submitAppointment()" >Submit</button>
+            </div>
+        </form>
+    </div>
+    
+    <script>
+        function submitAppointment() {
+           
+                alert("Thank You for the Feedback");
+                document.getElementById("appointmentForm").reset();
+          
+           
+        }
+    </script>
+    <section class="addressmap">
+    <img src="addressmap.jprg.png" alt="Hospital Image" width="600" height="300">
+</section>
+        
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: rgb(161, 207, 191);
+}
+.logo{
+    max-width: 100%;
+    height: auto;
+
+
+}
+header {
+    background-color: #009688;
+    color: white;
+    padding: 10px;;
+
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+.services, .doctors, .booking, .contact {
+    padding: 20px;
+
+}
+.services{
+margin: 100px;
+}
+.service-items, .doctor-list {
+    display: flex;
+    gap: 200px;
+}
+.service-item, .doctor-item {
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 45px;
+    background-color: #009688;
+    color: white;
+    padding: 150;
+}
